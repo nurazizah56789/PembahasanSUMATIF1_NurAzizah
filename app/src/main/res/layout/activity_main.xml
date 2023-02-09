@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DE44A"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#DA7878"
+        android:onClick="Jurusan"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="JURUSAN"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/Jurusan"
+            android:layout_width="150dp"
+            android:layout_height="96dp"
+            android:background="#DA7878"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/gambar1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="#DA7878"
+        android:onClick="Guru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="47dp"
+            android:gravity="center"
+            android:text="GURU"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/guru"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#DA7878"
+            app:srcCompat="@drawable/gambar2" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="444dp"
+        android:backgroundTint="#DA7878"
+        android:onClick="Siswa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="SISWA"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/siswa"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:background="#DA7878"
+            app:srcCompat="@drawable/gambar3" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="444dp"
+        android:backgroundTint="#DA7878"
+        android:onClick="Visimisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="VISIMISI"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/visimisi"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:background="#DA7878"
+            app:srcCompat="@drawable/gambar4" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/logo3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="68dp"
+        android:gravity="center"
+        android:text="SMK SYAFI'I AKROM"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
